@@ -1,3 +1,4 @@
+/*extract number from an array*/
 function func(string) {
     var numbers = string.match(/\d+/g).map(Number);
 
